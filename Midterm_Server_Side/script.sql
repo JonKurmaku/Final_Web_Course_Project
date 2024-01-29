@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS midterm_database;
 
 USE midterm_database;
 
-CREATE TABLE IF NOT EXISTS contacts (
+CREATE TABLE IF NOT EXISTS contact(
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     surname VARCHAR(255) NOT NULL,
