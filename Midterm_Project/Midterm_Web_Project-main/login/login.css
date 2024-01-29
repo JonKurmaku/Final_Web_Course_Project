@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+    font-size: xx-large;
+}
+
+div.middle{
+   
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  auto;
+}
+
+div.middle p{
+    text-shadow: 2px 2px black;
+}
+
+form input,button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+img{
+   width: 150px;
+}
+
+div.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+div.nav p{
+text-shadow: 2px 2px red;
+}
+
+div.nav a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    margin-left: 500px;
+    padding: 10px 30px;
+}
+
+div.middle button{
+    margin-top: 30px;
+    padding: 10px 76px 10px;
+    color: white;
+    background-color: black;
+}
+
+div.middle button:hover{
+    box-shadow: 4px 4px white;
+}
+
+div.middle button:active{
+    color:red;
+}

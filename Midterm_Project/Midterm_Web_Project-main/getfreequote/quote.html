@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeQuote Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="quote.css">
+</head>
+
+<body>
+  
+    <div id="first">
+        <img
+            src="data:image/jpeg;base64,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">
+        <h1>Start a car insurance quote and see how much you can save!<br>
+            <p><i class="fa-solid fa-circle-check fa-beat fa-lg" style="color: #25511f;"></i>We all need auto insurance,
+                and the best place to start is with a free car insurance quote.</p>
+        </h1>
+
+    </div>
+    <div id="firsti">
+    <a href="#part22">Click for more information?</a>
+    <a href="https://www.nerdwallet.com/insurance/match" target="_blank">Click & Start your free quote now!</a>
+</div>
+    <br>
+<br>
+<br>
+
+    <div id="part2">
+        <h2 id="part22">Needs more reasons to get a Quote?<br>We love saving people money!</h2>
+        <div id="part2ft">
+            <div>
+                <i class="fa-solid fa-tags fa-lg" style="color: #ffffff;"></i>
+                <p>Car Insurance Discounts<br>Many of these discounts are for things that are standard on newer cars
+                    like having daytime running lights, air bags, and anti-lock brakes.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-house-circle-check fa-lg" style="color: #ffffff;"></i>
+                <p>Bundle and Save<br>You could save money when you combine property insurance with your GEICO Car
+                    Insurance policy.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-circle-check fa-lg" style="color: #ffffff;"></i>
+                <p>More Ways to Save on Car Insurance<br>Whether you're a student, a federal employee, or a member of
+                    the armed forces, GEICO has a discount you may qualify for.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="part3">
+
+        <div>
+            <h1 id="part33">Getting a Car Insurance Quote</h1>
+            <img src="https://www.geico.com/public/images/auto-insurance/save-time-lower-1--large.jpg">
+            <span>
+                <h2>What information do I need to get a car insurance quote?<i class="fa-solid fa-comment fa-lg"
+                        style="color: #f5f5f5;"></i></h2>
+            </span>
+            <p>To get your free, personalized car insurance quote faster make sure to have:<br>
+                <i class="fa-solid fa-arrow-right" style="color: #40a042;"></i>A valid driver's license<br>
+                <i class="fa-solid fa-arrow-right" style="color: #40a042;"></i> Your vehicle identification number
+                (VIN)<br>
+                <i class="fa-solid fa-arrow-right" style="color: #40a042;"></i> The physical address where your vehicle
+                is stored
+                During your quote:<br>
+
+                <br><i class="fa-solid fa-check" style="color: #40a042;"></i> You'll learn about coverage options,
+                including state minimums, to help you choose the best car
+                insurance for you and your family.
+                <br><i class="fa-solid fa-check" style="color: #40a042;"></i> We'll also ask you some questions so we
+                can help find you all the savings you may qualify for.
+                <br><i class="fa-solid fa-check" style="color: #40a042;"></i> Then, you'll get your personalized rate.
+                From there you can purchase directly online. It's that
+                easy.
+            </p>
+        </div>
+        <hr>
+        <div id="part3ft2">
+            <img src="https://www.geico.com/public/images/auto-insurance/save-time-lower-2--large.jpg">
+            <span>
+                <h2>How to compare car insurance quotes?<i class="fa-solid fa-comment fa-lg"
+                        style="color: #f5f5f5;"></i></h2>
+            </span>
+            <p>To best compare car insurance quotes from different companies, make sure to select the same:<br>
+
+                <br><i class="fa-solid fa-arrow-right" style="color: #40a042;"></i> Coverages: Although some are
+                required, make sure you pick the same amounts for each quote.
+                <br><i class="fa-solid fa-arrow-right" style="color: #40a042;"></i> Policy limits: There are minimum
+                amounts, but using our coverage calculator can help you determine
+                the amount you may want higher.
+                <br><i class="fa-solid fa-arrow-right" style="color: #40a042;"></i> Deductible amount: Depending on the
+                coverage, you should think about how much you're able to pay to
+                help repair your vehicle. In most cases increasing your deductible could lower your bill.
+                <br><i class="fa-solid fa-check" style="color: #40a042;"></i> That way, you'll get a full picture of
+                what each insurer is offering.
+            </p>
+        </div>
+
+    </div>
+
+
+    
+<!--footer-->
+
+<div class="end">
+    <div class="all">
+    <div class="one">
+    <h3>Reach to Us</h3>
+    <br>
+    <ul class="fa-ul">
+     <li><span class="fa-li"><i class="fa-solid fa-location-dot"></span></i>
+        72 Victoria St Cabramatta NSW<br>
+        2164 Australia.
+     </li><br>
+     <li><span class="fa-li"><i class="fa-solid  fa-phone"></span></i>02 9050 1112</li><br>
+     <li><span class="fa-li"><i class="fa-solid fa-print"></span></i>02 9570 3025</li><br>
+     <li><span class="fa-li"><i class="fa-solid fa-envelope"></span></i>info@stwinsspares.com</li><br>
+    </ul>
+    </div>
+    
+    <div class="two">
+        <h3>Quick Links</h3>   
+
+        <br>
+        <i class="fa-solid fa-arrow-right"></i><a href="../file.html" target="_blank">Home</a><br><br>
+        <i class="fa-solid fa-arrow-right"></i><a href="../file.html#prev" target="_blank">Service&Parts</a><br><br>
+        <i class="fa-solid fa-arrow-right"></i><a href="../tiltservice/t.html" target="_blank">Tilt tray Service</a><br><br>
+        <i class="fa-solid fa-arrow-right"></i><a href="../getfreequote/quote.html" target="_blank">Get a Quote</a><br><br>
+        <i class="fa-solid fa-arrow-right"></i><a href="../about pages/about.html" target="_blank">About Us</a><br><br>
+        <i class="fa-solid fa-arrow-right"></i><a href="../contact pages/contact.html" target="_blank">Contact us</a><br><br>
+    </div>
+    
+    <div class="three">
+    <h3>Connect with Us</h3> 
+    <br>  
+        <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa-brands fa-facebook"></span></i>Facebook</li><br>
+            <li><span class="fa-li"><i class="fa-brands  fa-google-plus-g"></span></i>Google plus</li><br>
+            <li><span class="fa-li"><i class="fa-brands fa-youtube"></span></i>Youtube</li><br>
+            <li><span class="fa-li"><i class="fa-brands fa-instagram"></span></i>Instagram</li><br>
+           </ul>   
+    
+    </div>
+    
+    <div class="four">
+    <h3>Newsletter Update</h3>
+    <br>   
+    <form method="post" onsubmit="return contact2()">
+        <div method="post" onsubmit="return contact2()" >
+    
+        <input type="text" id="name2" placeholder="Name*" required>
+        </div>
+        <div>
+        <input type="email" id="email2" placeholder="Email*" required>
+        </div>
+        <div>
+        <button  onclick="contact2()" class="buton" type="sumbit" id="content2" value="Enquire Now">Enquire Now</button>
+    </form>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+      <!--Navbar me klasen"tekst"+logo-->
+    <!--faqja e pare por vendoset ne fund qe te rri fixed over all other elements-->
+    <div class="tekst">
+        <a href="../file.html" target="_blank">HOME</a>
+        <a href="../file.html#prev" target="_blank">SERVICE & PARTS</a>
+        <a href="../tiltservice/t.html#" target="_blank">Tilt Tray
+            service</a>
+        <a href="../about pages/about.html" target="_blank">About
+            us</a>
+        <a href="../contact pages/contact.html" target="_blank"><i
+                class="fa-solid fa-phone" style="color: red;"></i>Contact Page</a>
+        <a id="button" href="../getfreequote/quote.html"
+            target="_blank"> Get a free Quote</a>
+            <a id="button" href="../login/login.html"
+            >Admin</a>
+        <img class="logo" src="https://i.ebayimg.com/thumbs/images/g/cQQAAOSwH7NjjD3m/s-l640.jpg">
+    </div>
+
+
+
+
+
+
+    <script src="quote.js"></script>
+</body>
+
+</html>

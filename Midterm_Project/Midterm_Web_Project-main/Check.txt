@@ -1,0 +1,35 @@
+1. file.html
+- Car search form -> 403 error ,
+  search query string for values 
+  redirect @ auto scout
+-> CHECKED
+
+- Car swiper - Add title "Makina elektrike" - CHECKED
+- check hrefs - CHECKED
+- read more @ lorem ipsum -> About us -> CHECKED
+- Enquire now -> delete form, add text achor to contact.html - CHECKED
+- hrefs @ footer - CHECKED
+
+2. quote.html
+- check hrefs - CHECKED
+
+3. contact.html
+- check hrefs - CHECKED
+- form validation - CHECKED
+- data extraction ==> save to a table -> (Export default doesnt word type="module" )--> Try local storage - CHECKED
+
+4. about.html
+- hrefs @ footer - CHECKED
+
+5. t.html
+- check hrefs pathing - CHECKED
+- form validation - CHECKED
+
+6. login
+- Username : s-twins@admin 
+- Password : password      
+
+7.adminDisplay
+-2 tables :
+1 extracts from t.html form -> CHECKED
+2 extracts from contact.html form -> CHECKED
